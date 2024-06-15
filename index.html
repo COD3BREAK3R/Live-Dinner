@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Sitio Web creado por Luis Enrique, contactame por Telegram https://t.me/HACKERMATR1X o WhatsApp https://wa.me/+5355055789 -->
+
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Live Dinner</title>
+    <link rel="stylesheet" href="./css/estilos-dist.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header class="menu">
+        <img src="./img/logo.png" width="100px" class="menu__img">
+
+        <nav>
+            <ul class="menu__botones">
+                <li><a href="#inicio" class="linksMenu">Inicio</a></li>
+                <li><a href="#menu" class="linksMenu">Menús</a></li>
+                <li><a href="#reseñas" class="linksMenu">Reseñas</a></li>
+                <li><a href="#contacto" class="linksMenu">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Menu Movil -->
+
+    <header class="menuMovil">
+
+
+        <div class="menuMovil__Contenedor">
+            <img src="./img/logo.png" width="25%" class="menuMovil__logo">
+
+            <img src="./fonts/bars-solid.svg" width="8%" class="menuMovil__boton" id="menuMovil__boton">
+        </div>
+
+        <nav class="menuMovil__nav">
+
+            <ul class="menu__botonesMovil">
+                <li><a href="#inicio" class="linksMovil">Inicio</a></li>
+                <li><a href="#menu" class="linksMovil">Menús</a></li>
+                <li><a href="#reseñas" class="linksMovil">Reseñas</a></li>
+                <li><a href="#contacto" class="linksMovil">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <!--=======  End of Section  ========-->
+
+    <main>
+
+        <section class="sliderInicio" id="inicio">
+
+            <div class="sliderInicio__Imagenes">
+                <img src="./img/slider-01.jpg" width="100%">
+                <img src="./img/slider-02.jpg" width="100%">
+                <img src="./img/slider-03.jpg" width="100%">
+            </div>
+
+            <div class="sliderInicio__Botones">
+
+                <div class="sliderInicio__prevBtn desactivado">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path
+                            d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                    </svg>
+                </div>
+
+                <div class="sliderInicio__sigBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path
+                            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="sliderInicio__Circulos__Contenedor">
+
+                <div class="sliderInicioCirculo active"></div>
+                <div class="sliderInicioCirculo"></div>
+                <div class="sliderInicioCirculo"></div>
+            </div>
+
+        </section>
+
+        <!--=======  End of Section  ========-->
+
+        <div class="bienvenida__Titulo">Bienvenido a &nbsp
+            <b>Live Dinner Restaurant</b>
+        </div>
+
+        <section class="bienvenida">
+
+            <div class="bienvenida__Contenedor">
+                <img src="./img/about-img.jpg" class="bienvenida__Imagen">
+            </div>
+
+            <div class="bienvenida__ColumnaIzquierda">
+                <div class="bienvenida__Texto">
+
+                    Desde el momento en que nuestros comensales cruzan las puertas, son
+                    recibidos por el cálido abrazo de un ambiente elegante que combina el encanto tradicional con un
+                    toque contemporáneo.
+                    <br><br>
+
+                    Las texturas y colores de nuestra decoración han sido escogidos para complementar la sinfonía de
+                    sabores que nacen en nuestra cocina. Aquí, en el corazón culinario de nuestra casa, la pasión y la
+                    creatividad se entrelazan para dar vida a platos que son tanto una delicia visual como un festín
+                    para el paladar.
+                </div>
+
+                <div class="bienvenida__Btn__Contenedor">
+                    <button class="bienvenida__Btn"><a href="#contacto">Reservar</a></button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--=======  End of Section  ========-->
+
+        <section class="parallax__Contenedor">
+
+            <div class="parallax__Contenido">
+
+                <div class="parallax__Contenido__Encabezado">
+                    Descubre el Sabor
+                </div>
+
+                <br>
+
+                <div class="parallax__Contenido__Parrafo">
+                    Envuélvete en una experiencia culinaria única con nuestro plato estrella: la 'Delicia del Chef'.
+                    Cada
+                    bocado es una sinfonía de sabores frescos y locales, meticulosamente elaborados para deleitar tu
+                    paladar. Ven y sumérgete en un viaje gastronómico que celebra la esencia de la cocina de autor.
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--=======  End of Section  ========-->
+
+        <div class="menu__Intro" id="menu">
+            <p>Menu Especial</p>
+            <p class="menu__Intro__Parrafo">Descubra alguno de nuestros platos especiales preparados con una exquisita
+                calidad para satisfacer su paladar. Pase el cursor o toque sobre las imagenes para conocer el precio y
+                la descripción</p>
+        </div>
+
+        <aside class="menu__Contenedor">
+
+            <section class="menu__Navegacion__Contenedor">
+                <div class="menu__Navegacion">
+                    <button class="menu__Navegacion__Boton menuNavegacionActivo">Todo</button>
+                    <button class="menu__Navegacion__Boton">Bebidas</button>
+                    <button class="menu__Navegacion__Boton">Almuerzos</button>
+                    <button class="menu__Navegacion__Boton">Cenas</button>
+                </div>
+            </section>
+
+            <div class="menu__Fotos">
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-01.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Copa Nocturna
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Elegante combinación de sabores oscuros y frutas del bosque.
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>7$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-02.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Jugo de Fresa
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Refrescante jugo natural, adornado con hojas de menta
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>4$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-03.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Copa Citrus
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Un cóctel cítrico con toques de limón y naranja
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>6$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-04.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Hamburguesa Clásica
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Carne jugosa con queso cheddar, lechuga y salsa especial
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>9$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-05.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Ensalada Fresca
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Mezcla de hojas verdes, tomate cherry y aderezo ligero
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>7$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-06.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Pollo Warp
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Pollo integral relleno, con limón y vegetales frescos
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>12$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-07.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Fiesta de Sabores
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Degustación de platos pequeños con carne, arroz y vegetale
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>16$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-08.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Plato Mixto
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Combinado de huevo, arroz y trozos de carne sazonada
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>13$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu__Foto__Contenedor">
+                    <img src="./img/img-09.jpg" width="100%">
+
+                    <div class="menu__Foto__Contenido">
+
+                        <div class="menu__Foto__Contenido__Titulo">
+                            Carnes Variadas
+                        </div>
+                        <div class="menu__Foto__Contenido__Descripcion">
+                            Selección de cortes finos acompañados de guarniciones clásicas
+                            <hr>
+                            <div class="menu__Foto__Contenido__Precio">Precio: <b>15$</b></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </aside>
+
+        <!--=======  End of Section  ========-->
+
+        <section class="galeria">
+
+            <div class="menu__Intro">
+                <p>Galería Culinaria</p>
+                <p class="menu__Intro__Parrafo">Aquí encontrará algunos de nuestros platillos más destacados que podrá
+                    disfrutar en nuestro restaurante. Toque las fotos para ampliarlas</p>
+            </div>
+
+            <div class="galeria__Imagenes">
+                <div class="galeria__Imagen__Contenedor">
+                    <img src="./img/gallery-img-01.jpg" width="100%">
+                </div>
+
+                <div class="galeria__Imagen__Contenedor">
+                    <img src="./img/gallery-img-02.jpg" width="100%">
+                </div>
+
+                <div class="galeria__Imagen__Contenedor">
+                    <img src="./img/gallery-img-03.jpg" width="100%">
+                </div>
+
+                <div class="galeria__Imagen__Contenedor">
+                    <img src="./img/gallery-img-04.jpg" width="100%">
+                </div>
+
+                <div class="galeria__Imagen__Contenedor">
+                    <img src="./img/gallery-img-05.jpg" width="100%">
+                </div>
+
+                <div class="galeria__Imagen__Contenedor">
+                    <img src="./img/gallery-img-06.jpg" width="100%">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="modalGaleria">
+
+            <div class="modalGaleria__Cerrar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
+            </div>
+
+            <section class="sliderModal">
+
+                <div class="sliderModal__Imagenes">
+                    <img src="./img/gallery-img-01.jpg" width="100%">
+                    <img src="./img/gallery-img-02.jpg" width="100%">
+                    <img src="./img/gallery-img-03.jpg" width="100%">
+                    <img src="./img/gallery-img-04.jpg" width="100%">
+                    <img src="./img/gallery-img-05.jpg" width="100%">
+                    <img src="./img/gallery-img-06.jpg" width="100%">
+                </div>
+
+                <div class="sliderModal__Botones">
+
+                    <div class="sliderModal__prevBtn desactivado">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                        </svg>
+                    </div>
+
+                    <div class="sliderModal__sigBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                        </svg>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <div class="sliderModal__Circulos__Contenedor">
+                <div class="sliderModalCirculo active"></div>
+                <div class="sliderModalCirculo"></div>
+                <div class="sliderModalCirculo"></div>
+                <div class="sliderModalCirculo"></div>
+                <div class="sliderModalCirculo"></div>
+                <div class="sliderModalCirculo"></div>
+            </div>
+
+        </section>
+
+        <!--=======  End of Section  ========-->
+
+        <div class="menu__Intro reseñasEncabezado" id="reseñas">
+            <p>Reseñas de Clientes</p>
+            <p class="menu__Intro__Parrafo">Conozca lo que opinan algunos de nuestros clientes acerca de la calidad
+                del servicio y nuestra comida</p>
+        </div>
+
+        <!--=======  End of Section  ========-->
+
+        <section class="reseñas__Contenedor">
+
+            <div class="reseña">
+                <div class="reseña__Imagen">
+                    <img src="./img/quotations-button.png" width="100%">
+                    <div class="reseña__Nombre">
+                        <b>Carlos Gutiérrez</b>
+                    </div>
+                </div>
+
+                <div class="reseña__Contenido">
+                    <div class="reseña__Descripcion">
+                        Una experiencia inolvidable, con sabores que realmente te trasladan. La calidad de la comida y
+                        la atención amable hacen que quieras volver una y otra vez.
+                    </div>
+                </div>
+            </div>
+
+            <div class="reseña">
+                <div class="reseña__Imagen">
+                    <img src="./img/quotations-button.png" width="100%">
+                    <div class="reseña__Nombre">
+                        <b>Lucía Fernández</b>
+                    </div>
+                </div>
+
+                <div class="reseña__Contenido">
+                    <div class="reseña__Descripcion">
+                        Cada plato fue una obra de arte culinario, tanto en sabor como en presentación. La atención al
+                        detalle y el servicio excepcional destacan en este precioso restaurante.
+                    </div>
+                </div>
+            </div>
+
+            <div class="reseña">
+                <div class="reseña__Imagen">
+                    <img src="./img/quotations-button.png" width="100%">
+                    <div class="reseña__Nombre">
+                        <b>Mario Domínguez</b>
+                    </div>
+                </div>
+
+                <div class="reseña__Contenido">
+                    <div class="reseña__Descripcion">
+                        El ambiente del restaurante es tan cálido y acogedor como la comida es deliciosa. Cada visita es
+                        garantía de una velada perfecta.
+                    </div>
+                </div>
+            </div>
+
+            <div class="reseña">
+                <div class="reseña__Imagen">
+                    <img src="./img/quotations-button.png" width="100%">
+                    <div class="reseña__Nombre">
+                        <b>Andrea López</b>
+                    </div>
+                </div>
+
+                <div class="reseña__Contenido">
+                    <div class="reseña__Descripcion">
+                        Increíble variedad de sabores en cada plato que encantan al paladar. El menú innovador y la
+                        atención esmerada merecen aplausos.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--=======  End of Section  ========-->
+
+        <section class="datosContacto__Contenedor" id="contacto">
+
+            <!-- --------------- -->
+
+            <div class="datosContacto__EmailTelDir">
+
+                <div class="datosContacto__Correo">
+
+                    <div class="emailContenedor">
+                        <div class="emailIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg>
+                        </div><b>Correo:</b>
+                    </div>
+                    &nbsp;
+
+                    <div>email@email.com</div>
+                </div>
+
+                <!-- --------------- -->
+
+                <div class="datosContacto__Telefono">
+
+                    <div class="telefonoContenedor">
+                        <div class="telefonoIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                            </svg>
+                        </div>
+
+                        <b>Teléfono:</b>
+                    </div>
+                    &nbsp;
+
+
+                    <div>+1 234 567 890</div>
+                </div>
+
+                <!-- --------------- -->
+
+                <div class="datosContacto__Direccion">
+
+                    <div class="direccionContenedor">
+                        <div class="direccionIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path
+                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                            </svg>
+                        </div>
+
+                        <b>Direccion:</b>
+                    </div>
+                    &nbsp;
+
+
+                    <div>800, Lorem Street, US</div>
+                </div>
+
+            </div>
+
+            <!-- --------------- -->
+
+            <div class="datosContacto__Nosotros">
+                <div><b>Sobre Nosotros</b></div>
+                <div>
+                    En nuestro rincón culinario, cada plato cuenta una historia de pasión y tradición. Desde 1995, hemos
+                    estado sirviendo sabores auténticos y creando recuerdos inolvidables en cada uno de nuestros
+                    clientes.
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            Este sitio web ha sido creado por <span><b>Luis Enrique</b></span> para demostrar sus habilidades
+            programando en <span><b>HTML, CSS y JavaScript</b></span>, puede contactarme a traves de <span><a
+                    href="https://t.me/HACKERMATR1X">Telegram</a></span> o <span><a
+                    href="https://wa.me/+5355055789">WhatsApp</a></span>
+        </footer>
+
+    </main>
+
+    <!-- 
+        En la creacion de este sitio Web surgieron varios retos que tuve que superar, el primero de ellos fue el Slider, el cual tuve que repetir 2 veces, el segundo fue crear el Menu Especial, el tercero la creacion del modal que se abre al hacer clic en una imagen de la Galeria el cual me presento problemas con el Menu Stikcy y al redimensionar la web, el cuarto el tema del Hover y por ultimo el Menu Sticky, que causó varios inconvenientes al desplazar por los links y tener el modal abierto o cerrado
+     -->
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
